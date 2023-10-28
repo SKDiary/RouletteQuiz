@@ -2,14 +2,14 @@
 
 # build以外を除外
 *.map
-/node_modules/
-/public/
-/scraping/
-/src/
-/package-lock.json
-/package.json
-/README.md
-/roadmap.txt
+node_modules/
+public/
+scraping/
+src/
+package-lock.json
+package.json
+README.md
+roadmap.txt
 
 # # dependencies
 # /node_modules
