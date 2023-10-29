@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/RouletteQuiz/static/css/main.65ba65f1.css",
-    "main.js": "/RouletteQuiz/static/js/main.07236936.js",
+    "main.js": "/RouletteQuiz/static/js/main.bb2f02cf.js",
     "static/js/787.d4b4e8b7.chunk.js": "/RouletteQuiz/static/js/787.d4b4e8b7.chunk.js",
     "index.html": "/RouletteQuiz/index.html",
     "main.65ba65f1.css.map": "/RouletteQuiz/static/css/main.65ba65f1.css.map",
-    "main.07236936.js.map": "/RouletteQuiz/static/js/main.07236936.js.map",
+    "main.bb2f02cf.js.map": "/RouletteQuiz/static/js/main.bb2f02cf.js.map",
     "787.d4b4e8b7.chunk.js.map": "/RouletteQuiz/static/js/787.d4b4e8b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65ba65f1.css",
-    "static/js/main.07236936.js"
+    "static/js/main.bb2f02cf.js"
   ]
 }
