@@ -1,0 +1,9 @@
+.detail-modal-figure {
+	display: flex;
+}
+
+.detail-modal-detail {
+	color: white;
+	height: 280px;
+	overflow: auto;
+}

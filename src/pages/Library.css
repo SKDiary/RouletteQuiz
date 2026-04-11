@@ -1,0 +1,47 @@
+.library-all {
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.library-all::-webkit-scrollbar {
+	display: none;
+}
+
+.library-element {
+	background-color: #0d61af;
+	/* background: radial-gradient(#1078da, #094680); */
+	border: 1px solid white;
+	/* border-radius: 15%; */
+}
+
+.library-filter-btn {
+	color: #000;
+	background-color: #fff100;
+	border-bottom: 5px solid #ccc100;
+}
+
+.library-filter-btn:hover {
+	margin-top: 3px;
+	color: #000;
+	background: #fff20a;
+	border-bottom: 2px solid #ccc100;
+}
+
+.library-back-btn {
+	color: #000;
+	background-color: khaki;
+	border-bottom: 5px solid khaki;
+}
+
+.library-back-btn:hover {
+	margin-top: 3px;
+	color: #000;
+	background: khaki;
+	border-bottom: 2px solid khaki;
+}
+
+.library-btns {
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+}
