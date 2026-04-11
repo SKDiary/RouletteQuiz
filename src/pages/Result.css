@@ -1,0 +1,43 @@
+.result-header {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	font-size: x-large;
+}
+
+.result-resultcolor-red {
+	font-size: x-large;
+	color: red;
+}
+.result-resultcolor-yellow {
+	font-size: x-large;
+	color: yellow;
+}
+
+.result-list-all {
+	display: grid;
+	grid-template-columns: repeat(2, 400px);
+	grid-gap: 10px;
+	place-content: center;
+	color: white;
+}
+
+.result-list-all-mobile {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px;
+	place-content: center;
+	color: white;
+}
+
+.result-list-element {
+	background-color: #0d61af;
+	border: 1px solid white;
+	border-radius: 10%;
+}
+
+.result-list-flex {
+	display: flex;
+	gap: 5px;
+	margin-bottom: 10px;
+}

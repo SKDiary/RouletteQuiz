@@ -6,7 +6,6 @@ node_modules/
 public/
 scraping/
 scraping-plate/
-src/
 package-lock.json
 package.json
 README.md

@@ -1,0 +1,60 @@
+.platequiz-header {
+	color: white;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.platequiz-result-items {
+	display: flex;
+	justify-content: center;
+	color: red;
+}
+
+.platequiz-resultcolor-white {
+	color: white;
+}
+.platequiz-resultcolor-red {
+	color: red;
+}
+.platequiz-resultcolor-yellow {
+	color: yellow;
+}
+
+.platequiz-problem {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.platequiz-roulette {
+	text-align: center;
+}
+
+.platequiz-figure-detail {
+	color: white;
+	width: 60%;
+	height: 300px;
+	overflow: auto;
+}
+
+.platequiz-displayskill {
+	justify-content: center; /* 水平方向に中央寄せ */
+	align-items: center; /* 垂直方向に中央寄せ */
+	margin: auto;
+}
+
+.platequiz-answer-form {
+	color: yellow;
+	text-align: center;
+	margin: 10px;
+	gap: 10px;
+}
+
+.platequiz-answer-submit {
+	margin-left: 10px;
+}
+
+.platequiz-result {
+	text-align: center;
+}

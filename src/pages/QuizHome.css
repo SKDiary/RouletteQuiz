@@ -1,0 +1,74 @@
+.home-all {
+    text-align: center;
+}
+
+.home-select-difficulty {
+	position: relative;
+}
+
+.home-select-difficulty::before,
+.home-select-difficulty::after {
+	position: absolute;
+	content: "";
+	pointer-events: none;
+}
+
+.home-select-difficulty::before {
+	right: 0;
+	display: inline-block;
+	width: 2.8em;
+	height: 2.8em;
+	border-radius: 0 3px 3px 0;
+	background-color: #27acd9;
+	content: "";
+}
+
+.home-select-difficulty::after {
+	position: absolute;
+	top: 50%;
+	right: 1.4em;
+	transform: translate(50%, -50%) rotate(45deg);
+	width: 6px;
+	height: 6px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	content: "";
+}
+
+.home-select-difficulty select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	min-width: 230px;
+	height: 2.8em;
+	padding: 0.4em 3.6em 0.4em 0.8em;
+	border: 2px solid #27acd9;
+	border-radius: 3px;
+	color: #333333;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.home-select-difficulty select:focus {
+	outline: 1px solid #27acd9;
+}
+
+.home-start-btn {
+	display: block;
+	text-align: center;
+	/* vertical-align: middle; */
+	text-decoration: none;
+	width: 120px;
+	margin: 5rem auto;
+	/* margin: auto; */
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	transition: 0.5s;
+}
+
+.home-start-btn:hover {
+	color: #fff;
+	background: #27acd9;
+}
