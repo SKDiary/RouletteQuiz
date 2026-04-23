@@ -7,6 +7,7 @@ import { useState } from "react";
 import QuizHome from "./pages/QuizHome";
 import PlateQuiz from "./pages/PlateQuiz.jsx";
 import Library from "./pages/Library";
+import LibraryPlate from "./pages/LibraryPlate";
 
 function App() {
 	const [problemList, setProblemList] = useState([]);
@@ -71,6 +72,7 @@ function App() {
 					}
 				/>
 				<Route path="/library" element={<Library />} />
+				<Route path="/libraryplate" element={<LibraryPlate />} />
 			</Routes>
 		</Router>
 	);
