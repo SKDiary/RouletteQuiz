@@ -82,6 +82,10 @@ function QuizHome({ difficulty, setDifficulty, setProblemList }) {
 			<Link to={"/library"} className="home-start-btn">
 				ライブラリ閲覧
 			</Link>
+
+			<Link to={"/libraryplate"} className="home-start-btn">
+				プレート閲覧
+			</Link>
 		</div>
 	);
 }
